@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .nav-link {
+    margin-right: 3%;
+  }
+  .bg-light{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .develop-inf {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    line-height: 1.55;
+  }
+  .nav-link {
+    flex-basis: 22%;
+    line-height: 2;
+  }
+  .develop-text {
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .full-content {
+    flex-wrap: wrap;
+  }
+  .nav-link {
+    flex-basis: 47%;
+  }
+  .more {
+    display: none;
+  }
+  .subscription {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 578px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .logo-form_search {
+    flex-basis: 100%;
+    order: 3;
+    margin-top: 3%;
+  }
+  .bg-light {
+    flex-wrap: wrap;
+  }
+  .actors-title, .main-roles {
+    display: none;
+  }
+  .short-info {
+    margin-bottom: 4%;
+  }
+  .about-film {
+    margin: 0px;
+    margin-left: 20px;
+  }
+  .nav-link {
+    flex-basis: 31%;
+  }
+}
+
+@media(max-width: 410px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .bookmark-icon {
+    display: none;
+  }
+}
